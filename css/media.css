@@ -1,0 +1,132 @@
+@media (width > 540px) {
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .session__card {
+    padding: 7rem 2rem;
+  }
+
+  .trainer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .membership__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 1.5rem 1rem;
+  }
+
+  .nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .nav__header {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__logo img {
+    max-width: 120px;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+    transform: none;
+    z-index: 1;
+  }
+
+  .header__container {
+    padding-block: 12rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header__content {
+    grid-column: 2/3;
+  }
+
+  .about__header {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .about__header .section__header {
+    text-align: right;
+  }
+
+  .about__header .section__description {
+    text-align: left;
+    margin-inline-start: unset;
+  }
+
+  .about__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .session {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .session__card {
+    padding: 10rem 2rem;
+  }
+
+  .trainer__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .membership__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .logo__banner {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+  .trainer__grid {
+    gap: 2rem;
+  }
+
+  .membership__grid {
+    gap: 2rem;
+  }
+
+  .membership__card {
+    padding: 2rem;
+  }
+}

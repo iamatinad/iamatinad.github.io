@@ -1,0 +1,32 @@
+@import url("/css/root.css");
+@import url("/css/section.css");
+@import url("/css/btn.css");
+@import url("/css/nav.css");
+@import url("/css/header.css");
+@import url("/css/about.css");
+@import url("session.css");
+@import url("/css/trainer.css");
+@import url("/css/membership.css");
+@import url("/css/client.css");
+@import url("/css/blog.css");
+@import url("/css/footer.css");
+@import url("/css/media.css");
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
